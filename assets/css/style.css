@@ -15,6 +15,17 @@ p {
 a {
 	text-decoration: none!important;
 }
+
+.logo img{
+	margin-left: 20px;
+	width: 300px;
+  }
+  @media only screen and (max-width: 768px){
+	.logo img{
+	  width: 150px;
+	}
+  }
+  
 ul {
 	padding: 0;
 	margin: 0;
